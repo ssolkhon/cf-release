@@ -10,16 +10,7 @@ meta:
 
   floating_static_ips: (( merge ))
 
-  resource_pools:
-    small:
-      cloud_properties:
-        instance_type: m1.small
-    medium:
-      cloud_properties:
-          instance_type: m1.medium
-    large:
-      cloud_properties:
-          instance_type: m1.large
+  resource_pools: (( merge ))
 
 networks: (( merge ))
 
